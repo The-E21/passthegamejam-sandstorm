@@ -22,12 +22,14 @@ public class ExperianceManager : MonoBehaviour
     [HideInInspector] public PlayerAbility playerAbility;
 
     public PlayerLoadout[] upgrades;
+    public bool isUpgrading {get; private set;}
 
     private void Awake() {
         Instance = this;
         level = 1;
         maxLevel = false;
         UpdateBar();
+        isUpgrading = false;
     }
 
     public void GainExp(int amount){
@@ -39,6 +41,7 @@ public class ExperianceManager : MonoBehaviour
     }
 
     private void LevelUp(int excessExp) {
+        isUpgrading = true;
         AudioManager.Instance.Play(levelUpSound);
         level ++;
         levelText.text = $"Lv {level}";
@@ -57,6 +60,7 @@ public class ExperianceManager : MonoBehaviour
     }
 
     private void finishLevelUp() {
+        isUpgrading = false;
         foreach(Button button in upgradeButtons) {
             button.gameObject.SetActive(false);
         }

@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(!PauseHandler.Instance.paused)
+        if(!PauseHandler.Instance.paused && !ExperianceManager.Instance.isUpgrading)
             input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
     }
 

@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprites: {fileID: 4939226350975049503, guid: 90f9c75455626c84784e34ee69a0352d, type: 3}
   uiSprite: {fileID: 21300000, guid: c354230276d5b8e409e10a5b321a8e1d, type: 3}
-  leftClickAbility: {fileID: 11400000, guid: 13233e4c78490404bbb37cb5d7d27e36, type: 2}
-  rightClickAbility: {fileID: 11400000, guid: 094823387abd2554d812293bbca57bf0, type: 2}
+  leftClickAbility: {fileID: 11400000, guid: fec3c2ceb9821b742adef1d24989892c, type: 2}
+  rightClickAbility: {fileID: 0}
   spaceAbility: {fileID: 11400000, guid: b8aa8ffa83c5a6447b2331d923140947, type: 2}
   health: 20
   speed: 70
   upgrades:
-  - {fileID: 11400000}
+  - {fileID: 11400000, guid: 2a1cda4ea191c8540bf50552d9e5d80b, type: 2}
+  - {fileID: 11400000, guid: a7f7c5169d7c8cb46bd4addae6539da6, type: 2}

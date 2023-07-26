@@ -17,8 +17,8 @@ MonoBehaviour:
   isReady: 0
   distance: 8
   time: 0.5
-  intangibleWhileDashing: 1
-  dashDamage: 10
+  intangibleWhileDashing: 0
+  dashDamage: 0
   damageRadius: 0.8
   enemyLayers:
     serializedVersion: 2

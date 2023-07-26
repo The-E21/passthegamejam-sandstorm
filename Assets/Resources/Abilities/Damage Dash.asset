@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0bdb92a1ae83e648b0154dfcf9f18fe, type: 3}
   m_Name: Damage Dash
   m_EditorClassIdentifier: 
-  cooldownTime: 1
-  energyUsage: 1
+  cooldownTime: 0.7
+  energyUsage: 2
   isReady: 0
-  distance: 0
-  time: 0
-  intangibleWhileDashing: 0
-  dashDamage: 0
-  damageRadius: 0
+  distance: 16
+  time: 0.5
+  intangibleWhileDashing: 1
+  dashDamage: 10
+  damageRadius: 0.8
   enemyLayers:
     serializedVersion: 2
-    m_Bits: 0
-  dashVisual: {fileID: 0}
-  sound: 
+    m_Bits: 64
+  dashVisual: {fileID: 8727087558288239816, guid: ee9190e0febc127419e7cf5cb3d91dbd, type: 3}
+  sound: Hurt2

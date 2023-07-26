@@ -73,7 +73,7 @@ public class PlayerAbility : MonoBehaviour
             {
                 ability.Update();
 
-                if (GetControl(i) && ability.isReady && energy.HasEnergy(ability.energyUsage) && !PauseHandler.Instance.paused)
+                if (GetControl(i) && ability.isReady && energy.HasEnergy(ability.energyUsage) && !PauseHandler.Instance.paused && !ExperianceManager.Instance.isUpgrading)
                 {
                     ability.Trigger();
                     energy.UseEnergy(ability.energyUsage);
