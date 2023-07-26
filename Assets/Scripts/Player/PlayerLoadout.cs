@@ -4,7 +4,8 @@ using UnityEngine;
 public class PlayerLoadout : ScriptableObject
 {
     public GameObject sprites;
-    
+    public Sprite uiSprite;
+
     public Ability leftClickAbility;
     public Ability rightClickAbility;
     public Ability spaceAbility;

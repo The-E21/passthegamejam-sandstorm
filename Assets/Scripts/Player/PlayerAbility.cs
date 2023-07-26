@@ -24,6 +24,10 @@ public class PlayerAbility : MonoBehaviour
 
     private void SetAbility(Ability ability, int id)
     {
+        if(ability == null) {
+            abilities[id] = null;
+            return;
+        }
         abilities[id] = Instantiate(ability);
         abilities[id].SetParent(this);
     }
@@ -57,6 +61,7 @@ public class PlayerAbility : MonoBehaviour
 
     private void Start() {
         LoadPlayerLoadout(startLoadout);
+        ExperianceManager.Instance.playerAbility = this;
     }
 
     private void Update()
