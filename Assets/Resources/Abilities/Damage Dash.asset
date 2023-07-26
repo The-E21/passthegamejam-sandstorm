@@ -18,7 +18,7 @@ MonoBehaviour:
   distance: 16
   time: 0.5
   intangibleWhileDashing: 1
-  dashDamage: 10
+  dashDamage: 20
   damageRadius: 0.8
   enemyLayers:
     serializedVersion: 2

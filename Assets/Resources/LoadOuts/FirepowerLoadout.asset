@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6ee7f3e2ff50e43bfe58ebd437eca2, type: 3}
   m_Name: FirepowerLoadout
   m_EditorClassIdentifier: 
-  sprites: {fileID: 4939226350975049503, guid: 90f9c75455626c84784e34ee69a0352d, type: 3}
+  sprites: {fileID: 7325472360746420557, guid: da46c232dfa1b034d82e98b278eeb208, type: 3}
   uiSprite: {fileID: 21300000, guid: c354230276d5b8e409e10a5b321a8e1d, type: 3}
   leftClickAbility: {fileID: 11400000, guid: 13233e4c78490404bbb37cb5d7d27e36, type: 2}
   rightClickAbility: {fileID: 11400000, guid: 6bc37cd5e71cd5a46853afe2c7e7b82e, type: 2}

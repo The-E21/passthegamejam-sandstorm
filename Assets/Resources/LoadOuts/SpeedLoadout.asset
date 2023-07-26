@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6ee7f3e2ff50e43bfe58ebd437eca2, type: 3}
   m_Name: SpeedLoadout
   m_EditorClassIdentifier: 
-  sprites: {fileID: 4939226350975049503, guid: 90f9c75455626c84784e34ee69a0352d, type: 3}
+  sprites: {fileID: 1189686702669090503, guid: cfbd534049eb8f7458a99f55a8590008, type: 3}
   uiSprite: {fileID: 21300000, guid: c354230276d5b8e409e10a5b321a8e1d, type: 3}
   leftClickAbility: {fileID: 0}
-  rightClickAbility: {fileID: 11400000, guid: 094823387abd2554d812293bbca57bf0, type: 2}
+  rightClickAbility: {fileID: 0}
   spaceAbility: {fileID: 11400000, guid: 2cbf08bc174f0bf418a21a0d006f657e, type: 2}
   health: 20
   speed: 110
