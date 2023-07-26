@@ -36,7 +36,7 @@ public class PlayerAbility : MonoBehaviour
         SetAbility(loadout.spaceAbility, 2);
 
         playerEntity.maxHealth = loadout.health;
-        playerEntity.health = loadout.health;
+        playerEntity.health = 0;
 
         playerMovement.movementSpeed = loadout.speed;
 
