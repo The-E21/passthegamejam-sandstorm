@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f6ee7f3e2ff50e43bfe58ebd437eca2, type: 3}
+  m_Name: StartLoadout
+  m_EditorClassIdentifier: 
+  sprites: {fileID: 4939226350975049503, guid: 90f9c75455626c84784e34ee69a0352d, type: 3}
+  leftClickAbility: {fileID: 11400000, guid: 13233e4c78490404bbb37cb5d7d27e36, type: 2}
+  rightClickAbility: {fileID: 11400000, guid: 094823387abd2554d812293bbca57bf0, type: 2}
+  spaceAbility: {fileID: 11400000, guid: b8aa8ffa83c5a6447b2331d923140947, type: 2}
+  health: 20
+  speed: 70
+  upgrades: []
